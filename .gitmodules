@@ -1,6 +1,0 @@
-[submodule "data/jquery.uls"]
-	path = data/jquery.uls
-	url = https://github.com/Cybernetic1/jquery.uls
-[submodule "data/jquery.ime"]
-	path = data/jquery.ime
-	url = https://github.com/Cybernetic1/jquery.ime.git
