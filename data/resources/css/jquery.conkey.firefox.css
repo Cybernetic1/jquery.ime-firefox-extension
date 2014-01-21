@@ -1,0 +1,73 @@
+.ime-autocomplete {
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  position: absolute;
+  left: 0;
+  top: 26px;
+  overflow: auto;
+  overflow-x: hidden;
+  width: auto;
+  max-height: 300px;
+  box-shadow: 6px 8px 32px rgba(0,0,0,0.32);
+}
+
+.ime-autocomplete ul,
+.ime-autocomplete li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.ime-autocomplete ul {
+  background: white;
+}
+
+.ime-autocomplete li {
+  min-width: 180px;
+  cursor: pointer;
+  height: 30px;
+  line-height: 1;
+}
+
+.ime-autocomplete li .word {
+  font-size: 1em;
+  padding: 0 6px;
+  line-height: 30px;
+}
+
+.ime-autocomplete li .word em {
+  font-size: 0.85em;
+  color: #999;
+  margin-left: 6px;
+}
+
+.ime-autocomplete li:active,
+.ime-autocomplete li.active {
+  background-color: #b0d6fd;
+}
+
+.ime-autocomplete li.nokeyboard {
+  color: #999;
+}
+
+.ime-autocomplete li:hover {
+  background-color: #2073cb;
+  color: white;
+}
+
+.ime-autocomplete li .selection {
+  padding: 6px;
+}
+
+.popup-box {
+  position: absolute;
+  z-index: 99999;
+  max-width: 400px;
+  max-height: 400px;
+  box-shadow: 6px 8px 32px rgba(0,0,0,0.32);
+  padding: 12px;
+}
+
+.popup-box img {
+  width: 100%;
+  height: auto;
+}
